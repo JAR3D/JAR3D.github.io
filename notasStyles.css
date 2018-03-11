@@ -1,0 +1,32 @@
+.body{
+    background-color: green;
+}
+
+.div{
+    background-color: yellow;
+}
+
+.span{
+    background-color: blue;
+    display: inline-block;
+}
+
+.paragraph{
+    background-color: red;
+    
+}
+
+.images{
+    width: 100%;
+}
+
+.box{
+    display: inline-block;
+    border: 5px solid grey;
+    width: 25%
+}
+
+.elementDelimiter{
+    border: 2px solid orange;
+    margin: 2px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <!-- tudo tem de estar dentro do <html> -->
+<head>
+    <link rel="stylesheet" href="notasStyles.css">
+</head>
+
+<body>
+    <div class="body">
+        <h1>Notas sobre HTML 5</h1>
+        <h2>Body Element</h2>
+        <p>O elemento &lt;body&gt; tem a <b>background-color</b> verde </p>
+        <div class="div elementDelimiter">
+            <h2>&lt;div&gt; Element</h2>
+            <p>O elemento &lt;div&gt; tem a<b>background-color</b> amarelo </p>
+        </div>
+        <div class="elementDelimiter">
+            <span class="span">
+                <h2>&lt;span&gt; Element (inline element)</h2>
+                <p>O elemento &lt;span&gt; tem a<b>background-color</b> azul </p>
+            </span>
+            <span class="span">
+                <h2>&lt;span&gt; Element (inline element)</h2>
+                <p>Para conseguir visualizar a cor, tive de por o atributo display=inline-block</p>
+            </span>
+        </div>
+        <div class="elementDelimiter">    
+            <h2>&lt;p&gt; Element</h2>
+            <p class="paragraph">
+                O elemento &lt;p&gt; tem a <b>background-color</b> vermelha
+            </p>
+        </div>
+        <div class="elementDelimiter">
+            <h2>Dois &lt;span&gt; Element, um a seguir ao outro feito com as seguintes definições:</h2>
+            <p>As imagens têm a class: .images{ width: 100%; }</p>
+            <p>E os &lt;span&gt; têm a class: .box{ display: inline-block; border: 5px solid grey; width: 25% }</p>
+            <p>Apesar de o &lt;span&gt; ser um elemento inline, foi necessário reforçar o display para inline-block com tamanho de 25%. Se não o fizesse as imagens iriam querer ocupar todo o tamanho do &lt;span&gt; e este deixava de aparecer como deve de ser no nosso ecrã devido ao tamanho da imagem.</p>
+            <span class="box">
+                <img src="goku.png" alt="Goku image" class="images">
+                <p>I'm Songoku</p>
+            </span>
+            <span class="box">
+                <img src="goku.png" alt="Goku image" class="images">
+                <p>I'm Songoku</p>
+            </span>
+        </div>
+        <div class="elementDelimiter">
+            <h2>Dois &lt;div&gt; Element, um a seguir ao outro feito com as seguintes definições:</h2>
+            <p>As imagens têm a class: .images{ width: 100%; }</p>
+            <p>E os &lt;div&gt; têm a class: .box{ display: inline-block; border: 5px solid grey; width: 25% }</p>
+            <div class="box">
+                <img src="node.png" alt="nodeJS image" class="images">
+            </div>
+            <div class="box">
+                <img src="node.png" alt="nodeJS image" class="images">
+            </div>
+        </div>
+        
+        
+    </div>
+</body>
+
+</html>
